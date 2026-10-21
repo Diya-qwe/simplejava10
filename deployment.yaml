@@ -2,18 +2,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simplejava
+  name: simplejava2
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: simplejava
+      app: simplejava2
   template:
     metadata:
       labels:
-        app: simplejava
+        app: simplejava2
     spec:
       containers:
         - name: java-app
-          image: diyasree/simplejava:latest
+          image: diyasree/simplejava2:latest
           imagePullPolicy: Always
