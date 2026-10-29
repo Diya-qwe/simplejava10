@@ -5,6 +5,7 @@ public class App {
 
         System.out.println("Java CI/CD Application Started...");
 
+        
         while (true) {
             Thread.sleep(5000);
             System.out.println("Hello from Java CI/CD Pipeline!");
